@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Page Zoom</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css" />
+</head>
+
+<body>
+    <!-- Content -->
+    <div class="container">
+        <div class="xzoom-container">
+            <img src="./images/1-min.jpg" class="xzoom" xoriginal="./images/1.jpg">
+
+            <div class="xzoom-thumbs">
+                <a href="./images/1.jpg">
+                    <img class="xzoom-gallery" src="./images/1-min.jpg" xpreview="./images/1-min.jpg">
+                </a>
+                <a href="./images/2.jpg">
+                    <img class="xzoom-gallery" src="./images/2-min.jpg">
+                </a>
+                <a href="./images/3.jpg">
+                    <img class="xzoom-gallery" src="./images/3-min.jpg">
+                </a>
+                <a href="./images/4.jpg">
+                    <img class="xzoom-gallery" src="./images/4-min.jpg">
+                </a>
+            </div>
+        </div>
+        <!-- End Content -->
+
+        <!-- Description Start -->
+        <div class="description">
+            <h1>Women's Red Top</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A voluptatibus ipsam sed earum esse dignissimos
+                quo beatae doloremque, facere fugit! Ullam vel labore recusandae assumenda ea omnis facilis deleniti
+                excepturi explicabo, voluptas dolores quos? Nostrum earum maxime ullam, quaerat ducimus suscipit nemo
+                facilis optio tenetur esse corporis quia temporibus. Veniam!
+            </p>
+            <span>$1.500</span>
+            <div>
+                <button class="buy">
+                    Buy Now
+                </button>
+                <button class="cart">
+                    Add To Cart
+                </button>
+            </div>
+        </div>
+    </div>
+    <!-- End Description -->
+    <script src="./js/jquery.js"></script>
+    <script src="./js/zoom.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

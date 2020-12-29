@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: bisque;
+}
+.container{
+  margin-top: 100px !important;
+  width: 65%;
+  margin: 50px auto 0;
+  background-color: white;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1rem 1rem rgba(51, 51, 51, 0.2);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description{
+  margin-right: 50px;
+  margin-left: -20px;
+}
+
+.description h1{
+  margin: 50px 0 10px 0;
+  font-weight: 300;
+}
+
+.description p{
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.description span{
+  margin-top: 10px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 30px;
+  color: #030303;
+}
+
+.description button{
+  font-size: 18px;
+  padding: 15px 50px;
+  margin-top: 40px;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  color: #fff;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.12);
+}
+
+.description .buy{
+  background-color: #ff9f00;
+}
+
+.description .buy:hover{
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-color: #fb641b;
+}
+
+.description .cart{
+  background-color: #fb641b;
+  margin-left: 10px;
+}
+
+.description .cart:hover{
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+  background-color: #ff9f00;
+}
+
+.xzoom-thumbs a{
+  text-decoration: none;
+}
+
+.xzoom-thumbs img{
+  margin-top: 10px;
+  /* margin-left: 5px; */
+  /* margin-right: 15px; */
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border: 1px solid #ccc;
+}
+
+.xzoom-preview{
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.12);
+}
+
+.active{
+  border: 1px solid #4aaad2;
+  box-shadow: 0 0 3px 0 #4aaad2;
+}
